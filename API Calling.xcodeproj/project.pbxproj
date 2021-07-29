@@ -13,6 +13,7 @@
 		9C50AF9526B3419D00DCE2C8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C50AF9426B3419D00DCE2C8 /* Preview Assets.xcassets */; };
 		9C50AFA026B3419D00DCE2C8 /* API_CallingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C50AF9F26B3419D00DCE2C8 /* API_CallingTests.swift */; };
 		9C50AFAB26B3419D00DCE2C8 /* API_CallingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C50AFAA26B3419D00DCE2C8 /* API_CallingUITests.swift */; };
+		9C50AFB926B35B1800DCE2C8 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C50AFB826B35B1800DCE2C8 /* SwiftyJSON.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		9C50AFA626B3419D00DCE2C8 /* API CallingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "API CallingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C50AFAA26B3419D00DCE2C8 /* API_CallingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API_CallingUITests.swift; sourceTree = "<group>"; };
 		9C50AFAC26B3419D00DCE2C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C50AFB826B35B1800DCE2C8 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 				9C50AF8F26B3419C00DCE2C8 /* ContentView.swift */,
 				9C50AF9126B3419D00DCE2C8 /* Assets.xcassets */,
 				9C50AF9626B3419D00DCE2C8 /* Info.plist */,
+				9C50AFB826B35B1800DCE2C8 /* SwiftyJSON.swift */,
 				9C50AF9326B3419D00DCE2C8 /* Preview Content */,
 			);
 			path = "API Calling";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C50AFB926B35B1800DCE2C8 /* SwiftyJSON.swift in Sources */,
 				9C50AF9026B3419C00DCE2C8 /* ContentView.swift in Sources */,
 				9C50AF8E26B3419C00DCE2C8 /* API_CallingApp.swift in Sources */,
 			);
