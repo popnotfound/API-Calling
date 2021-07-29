@@ -43,6 +43,7 @@ struct ContentView: View {
                           message: Text("There was a problem loading the data"),
                           dismissButton: .default(Text("OK")))
                 })
+                .preferredColorScheme(.dark)
             }
         }
     }
